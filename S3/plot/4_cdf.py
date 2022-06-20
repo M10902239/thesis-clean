@@ -69,7 +69,7 @@ plt.xlabel('Packet Latency (ms)',color='black',fontsize = 15)
 plt.ylabel('CDF',color='black',fontsize = 15)
 plt.axhline(y=1, color="gray", ls="--",linewidth=0.5)
 plt.tick_params(labelsize=13) # x,y 字體大小
-plt.legend(bbox_to_anchor=(0.5, 1.15),loc="upper center", ncol=5,frameon=False,fontsize = 5)
+plt.legend(bbox_to_anchor=(0.5, 1.15),loc="upper center", ncol=5,frameon=False,fontsize = 8)
 
 
 plt.axes([0.5, 0.25, 0.35, 0.35])  
