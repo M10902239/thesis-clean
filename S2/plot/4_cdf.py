@@ -17,7 +17,7 @@ def getDelayList(file):
         list_of_rows1 = list(csv.reader(f, delimiter=','))
         delayList = []
         for line in list_of_rows1:
-            for time in range (0,25,1):
+            for time in range (0,24,1):
                 delayList.append((float(line[time]))/1000)
         # print(delayList)
         # print(len(list_of_rows1))
