@@ -8,7 +8,7 @@ thr_list=[]
 way = sys.argv[1] ## people
 input1 = sys.argv[2] ## people
 time = int(input1)
-people = 4
+people = 8
 def getDelayList(file):
     with open(file) as f:
         list_of_rows1 = list(csv.reader(f, delimiter=' '))
